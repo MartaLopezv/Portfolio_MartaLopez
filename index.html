@@ -1,11 +1,261 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marta Lopez — Filmmaker & Artist</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Sans:ital,wght@0,400;0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top">Marta Lopez — filmmaker &amp; artist</a>
+      <nav aria-label="Main navigation">
+        <a href="#films">films</a>
+        <a href="#reels">media reels</a>
+        <a href="#stills">stills</a>
+        <a href="#career">career path</a>
+        <a href="#about">about me</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          aria-hidden="true"
+        >
+          <source src="videos/Showreel October 2026.mov" type="video/mp4" />
+        </video>
+        <div class="hero-controls" aria-label="Showreel controls">
+          <button class="hero-control hero-play" type="button" aria-label="Pause showreel">
+            pause
+          </button>
+          <button class="hero-control hero-sound" type="button" aria-label="Turn sound on">
+            sound off
+          </button>
+        </div>
+        <div class="hero-copy">
+          <strong>Driven by vision.</strong>
+          <strong class="hero-copy-muted">Defined by quality.</strong>
+        </div>
+      </section>
+
+      <section id="films" class="gallery-section films">
+        <h2>films</h2>
+        <p class="tools">
+          DaVinci · Sony NX100 · Premiere Pro · Canon 70D · Color Grading · Sony
+          FX7 ·
+        </p>
+        <div class="film-grid">
+          <img
+            src="images/Captura de pantalla 2026-10-29 164708.png"
+            alt="Person at the sea"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-29 165533.png"
+            alt="People resting in a field"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-29 170200.png"
+            alt="People in a forest"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-29 234136.png"
+            alt="Portrait in a garden"
+          />
+        </div>
+      </section>
+
+      <section id="reels" class="gallery-section reels">
+        <h2>media reels</h2>
+        <p class="tools">
+          DaVinci · iPhone 16 Pro Max · Premiere Pro · GoPro · Canva · Insta360
+          ·
+        </p>
+        <div class="reel-grid">
+          <img
+            src="images/Captura de pantalla 2026-10-29 221524.png"
+            alt="Football match"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-29 221705.png"
+            alt="Yoga class"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-30 201830.png"
+            alt="Underwater starfish"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-30 202039.png"
+            alt="Underwater seal"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-29 221924.png"
+            alt="Padel match"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-29 223406.png"
+            alt="Camera crew"
+          />
+        </div>
+      </section>
+
+      <section id="stills" class="gallery-section stills">
+        <h2>stills</h2>
+        <p class="tools">
+          FinalCut · Sony SF-V1 · Adobe Photoshop · Canon 70D · Adobe Lightroom
+          · Sony NX100 ·
+        </p>
+        <div class="stills-grid">
+          <div>
+            <img
+              src="images/Captura de pantalla 2026-10-30 215917.png"
+              alt="Beach"
+            />
+            <img
+              src="images/Captura de pantalla 2026-10-30 230358.png"
+              alt="Actors by the sea"
+            />
+            <img
+              src="images/Captura de pantalla 2026-10-30 230552.png"
+              alt="Beach waves"
+            />
+          </div>
+          <div>
+            <img
+              src="images/Captura de pantalla 2026-10-30 222247.png"
+              alt="Person lying in grass"
+            />
+            <img
+              src="images/Captura de pantalla 2026-10-30 215829.png"
+              alt="Old passageway"
+            />
+            <img
+              src="images/Captura de pantalla 2026-10-30 220323.png"
+              alt="People in the water"
+            />
+            <img
+              src="images/Captura de pantalla 2026-10-30 215806.png"
+              alt="Person holding a photograph"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="career" class="career section">
+        <h2>career path</h2>
+        <div class="career-grid">
+          <article>
+            <h3>Education</h3>
+            <p class="date">2025 - PRESENT</p>
+            <strong>ERAM School of Arts</strong>
+            <p>Girona, Spain · Degree in Audiovisual Communication and Multimedia</p>
+            <p class="date">2024 - 2025</p>
+            <strong>Pompeu Fabra University</strong>
+            <p>Barcelona, Spain · Degree in Audiovisual Systems Engineering</p>
+            <p class="date">2022 - 2024</p>
+            <strong>Lycée International Barcelona – Bon Soleil</strong>
+            <p>Barcelona, Spain · Scientific and Technological Bachibac</p>
+          </article>
+          <article>
+            <h3>Film & Media Experience</h3>
+            <p class="date">2025 - PRESENT</p>
+            <strong>Kommon Films</strong>
+            <p>Barcelona, Spain · Event Filming and On-Set Production Support</p>
+            <p>
+              · Film promotion content for events/productions, BTS coverage<br />
+              · Responsible for BTS &amp; making-of film sets<br />
+              · Participation in several productions as an extra
+            </p>
+            <p class="date">2025 - PRESENT</p>
+            <strong>University of Girona</strong>
+            <p>Girona, Spain · Communication and Social Media</p>
+            <p>
+              · Responsible for all social media accounts in the sports department<br />
+              · Creating visual content through filming, shooting, video editing and graphic design<br />
+              · Promoting ceremonies, events, activities &amp; competitions
+            </p>
+          </article>
+          <article>
+            <h3>Certifications</h3>
+            <p class="date">JULY 2026</p>
+            <strong>ESRA International Film School</strong>
+            <p>Paris, France · Summer Filmmaking Program</p>
+            <p>
+              · Practical training in screenwriting, directing, cinematography, sound and editing<br />
+              · Creation of short films with mentorship from experienced film professionals
+            </p>
+            <p class="date">SUMMER 2025</p>
+            <strong>Venice International University</strong>
+            <p>Venice, Italy · Selected for accreditation at the 82nd Venice Film Festival</p>
+            <p>
+              · Participated in the 82nd Venice Film Festival as an accredited student<br />
+              · Networking opportunities and exposure to major production companies<br />
+              · Presented a short film at the Ca’ Foscari Film Festival
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <h2>about me</h2>
+        <div class="portraits">
+          <img
+            src="images/Captura de pantalla 2026-10-31 003958.png"
+            alt="Marta portrait"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-31 003953.png"
+            alt="Marta smiling"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-31 003936.png"
+            alt="Marta portrait"
+          />
+          <img
+            src="images/Captura de pantalla 2026-10-31 003943.png"
+            alt="Marta portrait"
+          />
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">FILMMAKER & ARTIST</p>
+          <h3>MARTA LOPEZ</h3>
+          <p>
+            Passionate and ambitious student, with hands-on experience in on-set
+            support, BTS coverage, promotional filming, and video editing.
+            Understanding of audiovisual workflows, with an organised,
+            adaptable, and proactive approach to working in fast-paced
+            production environments. Eager to contribute to creative projects
+            and support production teams through the filmmaking process.
+          </p>
+        </div>
+      </section>
+
+      <footer id="contact" class="contact section">
+        <h2>contact</h2>
+        <a class="email" href="mailto:maartalopezv@gmail.com"
+          >maartalopezv@gmail.com</a
+        >
+        <div class="contact-links">
+          <a href="https://www.instagram.com/maartalopezv/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.linkedin.com/in/marta-lopez-vara" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/MartaLopezv/Portfolio_MartaLopez" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="phone" href="tel:+34663595321">+34 663 595 321</a>
+        </div>
+      </footer>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
