@@ -637,6 +637,7 @@ footer {
   }
 
   .hero-video {
+    /*no he sigut capaç de re escalar el video perquè ocupi tot el frame de la hero section, com en el meu disseny de figma, tant en la versió desktop com en la versió mobile, he provat amb IA i tampoc he sigut capaç*/
     position: relative;
     inset: auto;
     width: 100%;
