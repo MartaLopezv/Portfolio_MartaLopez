@@ -702,6 +702,7 @@ footer {
     flex: none;
     border-radius: 14px;
   }
+  /*això li he demanat a la IA perquè no sabia com re escalar-ho jo mateixa*/
 
   .stills-grid > div:first-child img:first-child {
     aspect-ratio: 0.83;
