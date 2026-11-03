@@ -140,7 +140,7 @@ footer {
   height: 100vh;
   min-height: 600px;
   width: 100vw;
-  margin-left: calc((100% - 100vw) / 2);
+  margin-left: calc(50% - 50vw + (100vw - 100%) / 2);
   overflow: hidden;
   position: relative;
 }
@@ -161,38 +161,12 @@ footer {
   position: absolute;
   inset: 0;
   z-index: 0;
+  display: block;
   width: 100%;
+  min-width: 100%;
+  max-width: none;
   height: 100%;
-  object-fit: cover;
-}
-
-.hero-controls {
-  position: absolute;
-  right: 24px;
-  bottom: 24px;
-  z-index: 3;
-  display: flex;
-  gap: 8px;
-}
-
-.hero-control {
-  border: 1px solid rgba(243, 165, 109, 0.8);
-  border-radius: 999px;
-  padding: 7px 11px;
-  background: rgba(255, 240, 223, 0.32);
-  color: var(--orange);
-  font: inherit;
-  font-size: 11px;
-  line-height: 1;
-  cursor: pointer;
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
-}
-
-.hero-control:hover,
-.hero-control:focus-visible {
-  background: rgba(255, 240, 223, 0.72);
-  outline: none;
+  border: 0;
 }
 
 .hero-copy {
@@ -665,13 +639,11 @@ footer {
   .hero-video {
     position: relative;
     inset: auto;
+    width: 100%;
+    min-width: 100%;
     height: 78%;
     flex: 0 0 78%;
-  }
-
-  .hero-controls {
-    right: 18px;
-    bottom: calc(22% + 16px);
+    flex-shrink: 0;
   }
 
   .hero::after {
